@@ -30,7 +30,9 @@ const App = () => {
             transform:
               index === selectedImageIndex
                 ? ""
-                : `translateX(${(index - selectedImageIndex) * 150}%)`,
+                : `translateX(${
+                    (index - selectedImageIndex) * 100
+                  }%) translateX(-50%)`,
           }}
         />
       ))}
