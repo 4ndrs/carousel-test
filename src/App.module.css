@@ -1,14 +1,25 @@
 .container {
-  background-color: teal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 820px;
+  height: 380px;
+  outline: solid 5px #e4c076;
+  outline-offset: 15px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .image {
   object-fit: cover;
   position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%) scale(1.2);
+  transform: translate(-50%, -50%) scale(1.2);
   cursor: pointer;
   transition: transform 200ms;
+  border-radius: 8px;
 }
 
 .selected {

@@ -32,7 +32,7 @@ const App = () => {
                 ? ""
                 : `translateX(${
                     (index - selectedImageIndex) * 100
-                  }%) translateX(-50%)`,
+                  }%) translate(-50%, -50%)`,
           }}
         />
       ))}
